@@ -11,7 +11,6 @@ export const ModalEvents = {
   methods: {
     selectOrder(index){
       this.orderId=index;
-      console.log(this.orderId);
       this.onModalOrder = true;
     },
     closeOrder(stateSend) {
